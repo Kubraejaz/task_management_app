@@ -1,0 +1,32 @@
+name: task_app
+description: "A Flutter Task Management App connected with Supabase."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Supabase Flutter SDK
+  supabase_flutter: ^1.6.0
+
+  # UUID for generating unique task IDs (compatible version)
+  uuid: 4.5.2
+
+  # HTTP if you want manual REST calls
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
